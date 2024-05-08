@@ -38,7 +38,7 @@
 
 > [!IMPORTANT]
 >
-> <sub>The release of Charmer bot's repository will be withheld until we've completed testing and integrating the fundamental features. Stay tuned for further updates!</sub>
+> The release of Charmer bot's repository will be withheld until we've completed testing and integrating the fundamental features. Stay tuned for further updates!
 
 ## 📍 Overview
 
