@@ -66,6 +66,10 @@ Ensure you have the following dependencies installed on your system:
 
 * **Bun**: `latest`
 
+> [!IMPORTANT]
+>
+> Bun is basically what i use, you can go for whatever you prefer although i recommend using bun because it's tested and works well with the project.
+
 ### ⚙️ Install
 
 1. Clone the bot repository:
@@ -87,6 +91,29 @@ bun install
 ```
 
 ### ► Using `bot`
+
+Fill in the .env file with the following information:
+
+```sh
+TOKEN=""
+NODE_ENV="development" # or "production"
+DATABASE_URL="postgresql://username:password@localhost:5437/db_name?schema=public"
+
+# Used for pagination
+EMOTE_PREVIOUS=""
+EMOTE_CLOSE=""
+EMOTE_NEXT=""
+EMOTE_JUMP=""
+
+# Info:
+# All emotes must be actual discord emotes, not unicode characters.
+```
+
+Migrate database:
+
+```sh
+npx prisma migrate dev --name "Initial migration"
+```
 
 Use the following command to run bot:
 
