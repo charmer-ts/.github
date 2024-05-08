@@ -1,1 +1,1 @@
-Visit our [Main Page(https://github.com/charmer-ts/)
+Visit our [Main Page](https://github.com/charmer-ts/)
